@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "max-len": 0,
+    "no-else-return": 0,
+    "arrow-body-style": 0,
+    "import/no-unresolved": 0
+  },
+  "env": {
+    "browser": true,
+    "mocha": true
+  },
+  "globals": {
+    "expect": true,
+    "__webpack_public_path__": true
+  },
+  "settings": {
+    "import/core-modules": [ "app-config" ]
+  }
+}
